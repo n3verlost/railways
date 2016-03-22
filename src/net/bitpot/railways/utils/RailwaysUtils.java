@@ -91,7 +91,7 @@ public class RailwaysUtils {
             return GemsRunner.runGemsExecutableScript(sdk, module,
                     "rake", "rake",
                     moduleContentRoot, new ExecutionModes.SameThreadMode(),
-                    routesTaskName, "--trace", railsEnv);
+                    routesTaskName, "", railsEnv);
         } catch (Exception e) {
             e.printStackTrace();
         }
